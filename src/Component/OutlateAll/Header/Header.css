@@ -1,0 +1,89 @@
+.navbarParent {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+    height: 64px;
+    border-bottom: 1px solid transparent;
+    z-index: 999;
+    position: relative;
+}
+
+.navbarParent .navbar {}
+
+.navbarParent .navbar .Left {}
+
+.navbarParent .navbar .Left h2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: italic;
+    color: #4f6df5;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbarParent .navbar .Right .box {
+
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.navbarParent .navbar .Right .box:first-child {
+
+    padding-left: 0px;
+}
+
+.navbarParent .navbar .Right .box h3 {
+    font-family: "Roboto", sans-serif;
+    color: #4f6df5;
+    font-size: 17px;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+.navbarParent .navbar .Right .box span {
+    color: rgba(0, 0, 0, 0.54);
+    /* font-size: 20px; */
+    padding-right: 6px;
+}
+/* =========================== */
+
+
+
+
+.navbarParent .navbar .Right .SubMenuParent {
+    position: relative;
+}
+
+.navbarParent .navbar .Right .SubMenuParent .SubMenu {
+    position: absolute;
+    background-color: white;
+    top: 28px;
+    right: -18%;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transform: translate(18%, 0%);
+    padding: 14px;
+    border-radius: 6px;
+    z-index: 999;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.navbarParent .navbar .Right .SubMenuParent:hover .SubMenu {
+    visibility: visible;
+
+}
+
+@media (max-width: 767px) {
+
+    .navbarParent .navbar .Right .SubMenuParent .SubMenu {
+        top: 0px;
+        right: -74%;
+        transform: translate(72%, 0%);
+        z-index: 999;
+    }
+}
+
+.navbarParent .navbar .Right .SubMenuParent .SubMenu .SMenu h4 a {
+    font-family: "Roboto", sans-serif;
+    color: #4f6df5;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 4px 0;
+}

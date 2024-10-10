@@ -1,0 +1,186 @@
+.ClientProvidersParent {
+    /* overflow-y: hidden; */
+}
+
+
+
+/* @media (min-width: 1020px) and (max-width: 1150px) {
+
+    .ClientProvidersParent .kk {
+
+        width: 1040px;
+    
+    }
+} */
+
+
+.ClientProvidersParent .ClientProviders {}
+
+
+
+.ClientProvidersParent h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.ClientProvidersParent h3 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+
+/* ========================== */
+
+.ClientProvidersParent .ClientProviders {}
+
+
+
+.ClientProvidersParent .ClientProviders .Client {
+
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    padding: 48px;
+
+}
+
+.ClientProvidersParent .ClientProviders .Client h5 {
+    text-align: center;
+    color: #4f6df5;
+    font-weight: 700;
+    font-size: 34px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+
+.ClientProvidersParent .ClientProviders .Client .Step {
+    padding-top: 24px;
+}
+
+.ClientProvidersParent .ClientProviders .Client .Step h2 {
+    padding-bottom: 8px;
+    text-align: left;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ClientProvidersParent .ClientProviders .Client .Step p {
+    padding-bottom: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    /* color: rgb(0 0 0 / 60%); */
+    line-height: 28px;
+    color: rgb(0 0 0 / 72%);
+}
+
+
+.ClientProvidersParent .ClientProviders .ClientPAR .ClientSingUp {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    background-color: #4f6df5;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+    margin: 0 auto;
+    height: 42px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+
+.ClientProvidersParent .ClientProviders .ClientPAR .ClientSingUp:hover {
+
+    background-color: #4f6df5;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ==================== */
+
+.ClientProvidersParent .ClientProviders .Provider {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    padding: 48px;
+
+}
+
+
+.ClientProvidersParent .ClientProviders .Provider h5 {
+    text-align: center;
+    color: #4f6df5;
+    font-weight: 700;
+    font-size: 34px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+
+.ClientProvidersParent .ClientProviders .Provider .Step {
+    padding-top: 20px;
+}
+
+
+
+.ClientProvidersParent .ClientProviders .Provider .Step h2 {
+    padding-bottom: 7px;
+    text-align: left;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ClientProvidersParent .ClientProviders .Provider .Step p {
+    padding-bottom: 14px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0 0 0 / 60%);
+    line-height: 26px;
+    text-align: justify;
+
+}
+
+
+
+.ClientProvidersParent .ClientProviders .ProviderPAR .ProviderSingUp {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    background-color: #4f6df5;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+    margin: 0 auto;
+    height: 42px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 34px;
+}
+
+
+.ClientProvidersParent .ClientProviders .ProviderPAR .ProviderSingUp:hover {
+
+    background-color: #4f6df5;
+    box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.2), 0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
